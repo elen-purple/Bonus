@@ -27,17 +27,25 @@ body {
   width: 1182px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: red 3px dashed;
+  /* outline: red 3px dashed; */
 }
 
 .header-hero-bg {
   background-image: url(../imgs/header-hero-bg.webp);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .header {
   padding: 23px 0;
+  position: fixed;
+  width: 100%;
+  transition: background-color 1s;
+}
+
+.header:hover {
+  background-color: var(--dark-text);
 }
 
 .header-container {
@@ -76,7 +84,7 @@ body {
 }
 
 .hero {
-  padding-top: 341px;
+  padding-top: 411px;
   padding-bottom: 116px;
 }
 
@@ -472,55 +480,209 @@ body {
 }
 
 .company-link {
+  width: 270px;
+  display: block;
+  color: var(--light-text);
+  border-bottom: 1px var(--light-text) solid;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  padding-bottom: 14px;
+  margin-top: 24px;
+  transition: border-bottom 0.6s;
+}
+
+.company-link:hover {
+  border-bottom: 1px var(--first-expect) solid;
+}
+
+.company-text {
   color: var(--light-text);
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding-bottom: 14px;
-  border-bottom: 1px var(--light-text) solid;
-  width: 270px;
-  display: block;
-  margin-top: 24px;
+  transition: color 0.6s;
+}
+
+.company-link:hover .company-text {
+  color: var(--first-expect);
+}
+
+.company-icon {
+  fill: var(--light-text);
+  transition: fill 0.6s;
+}
+
+.company-link:hover .company-icon {
+  fill: var(--first-expect);
 }
 
 .footer {
+  background-color: var(--dark-text);
+  padding-top: 79px;
+  padding-bottom: 27px;
 }
+
 .footer-addresses {
+  display: flex;
+  gap: 42px;
 }
+
 .footer-address {
 }
+
 .footer-header {
+  color: var(--light-text);
+  font-size: 23px;
+  line-height: 1.04;
+  margin-bottom: 19px;
 }
+
 .footer-offer {
+  color: var(--white-text);
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 100px;
+  background: #7837f3;
+  padding: 9px 32px;
+  display: block;
+  transition: background-color 0.6s;
 }
+
+.footer-offer:hover {
+  background-color: rgba(120, 55, 243, 0.7);
+}
+
 .footer-gmail {
+  color: var(--light-text);
+  font-size: 15px;
+  line-height: 1.6;
+  padding: 8px 27px;
+  border-radius: 100px;
+  border: var(--light-text) 1px solid;
+  display: block;
+  transition: color 0.6s, border 0.6s;
 }
+
+.footer-gmail:hover {
+  color: var(--white-text);
+  border: var(--white-text) 1px solid;
+}
+
+.footer-wrap {
+  display: flex;
+  gap: 309px;
+}
+
 .footer-lists {
+  display: flex;
+  gap: 74px;
+  margin-top: 86px;
+  width: 587px;
 }
+
 .footer-items {
 }
+
 .footer-subtitle {
+  color: var(--light-text);
+  font-size: 20px;
+  line-height: 0.8;
+  margin-bottom: 48px;
+  width: max-content;
 }
+
 .footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
 }
+
 .footer-item {
 }
+
 .footer-link {
+  color: var(--light-text);
+  font-size: 16px;
+  line-height: 0.01;
+  transition: color 0.6s;
+  width: max-content;
+  display: block;
 }
+
+.footer-link:hover {
+  color: var(--white-text);
+}
+
+.footer-wrapper {
+  padding-top: 131px;
+}
+
 .footer-house {
 }
+
 .footer-text {
+  color: var(--light-text);
+  font-size: 14px;
+  line-height: 2;
+  margin-top: 47px;
 }
+
+.footer-basement {
+  border-top: 1px solid rgba(228, 216, 204, 0.16);
+  padding-top: 28px;
+  margin-top: 121px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-medias {
+  display: flex;
+  gap: 298.5px;
 }
+
 .footer-media {
 }
+
 .footer-run {
 }
+
 .footer-icon {
+  fill: var(--light-background);
+  transition: fill 0.6s;
 }
+
+.footer-icon:hover {
+  fill: rgba(231, 223, 216, 0.7);
+}
+
+.footer-wraper {
+  display: flex;
+  justify-content: end;
+}
+
 .footer-copyright {
+  padding-bottom: 9px;
+  margin-left: 284px;
+  color: var(--light-text);
+  font-size: 11px;
+  line-height: 1;
+  width: 114px;
+  text-align: right;
 }
+
 .footer-privacy {
+  width: 77px;
+  text-align: right;
+  padding-bottom: 9px;
+  color: var(--light-text);
+  font-size: 11px;
+  line-height: 1;
+  transition: color 0.6s;
+}
+
+.footer-privacy:hover {
+  color: var(--white-text);
+  text-decoration-line: underline;
 }
