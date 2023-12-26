@@ -116,39 +116,78 @@ body {
 }
 
 .work {
+  background: var(--light-background);
+  padding: 75.5px 0;
 }
+
+.work-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-text {
+}
+
 .work-title {
+  color: var(--dark-text);
+  font-size: 54px;
+  line-height: 1.07;
+  margin-bottom: 15px;
+  width: 508px;
 }
+
 .work-desc {
+  color: var(--dark-text);
+  font-size: 16px;
+  line-height: 1.38;
+  width: 452px;
 }
+
 .work-img {
+  padding-top: 17px;
+  width: 539px;
+  height: 283px;
 }
+
 .expect {
 }
+
 .expect-title {
 }
+
 .expect-list {
 }
+
 .expect-item {
 }
+
 .expect-img {
 }
+
 .expect-wrap {
 }
+
 .expect-num {
 }
+
 .expect-header {
 }
+
 .expect-subtitle {
 }
+
 .expect-link {
 }
+
 .expect-text {
 }
+
 .expect-icon {
 }
+
 .expect-desc {
 }
+
 .reviews {
 }
 .reviews-title {
