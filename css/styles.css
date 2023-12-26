@@ -320,43 +320,115 @@ body {
 }
 
 .reviews {
+  background-color: var(--white-text);
+  padding-top: 117px;
+  padding-bottom: 112px;
 }
+
 .reviews-title {
 }
+
 .reviews-list {
+  display: flex;
+  justify-content: center;
 }
+
 .reviews-item {
 }
+
+.reviews-item:first-child {
+  width: 489px;
+}
+
+.reviews-item:nth-child(2) {
+  margin-left: 43px;
+  border-left: rgba(228, 216, 204, 0.1) 2px solid;
+  padding-left: 84px;
+  width: 408px;
+}
+
 .reviews-icon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 37px;
 }
+
+.reviews-item:nth-child(1) .reviews-icon {
+  fill: var(--second-expect);
+  stroke: var(--second-expect);
+}
+
+.reviews-item:nth-child(2) .reviews-icon {
+  fill: var(--third-expect);
+  stroke: var(--third-expect);
+}
+
 .reviews-desc {
+  color: var(--light-text);
+  font-size: 23px;
+  line-height: 2.26;
+  width: 489px;
+  text-align: center;
 }
+
+.reviews-item:nth-child(2) .reviews-desc {
+  width: 408px;
+}
+
+.reviews-wrapper {
+  display: flex;
+  gap: 29px;
+  padding-left: 82px;
+  margin-top: 50px;
+  align-items: center;
+}
+
 .reviews-img {
+  border-radius: 50%;
 }
+
 .reviews-text {
+  color: var(--light-text);
+  font-size: 14px;
+  line-height: 1.71;
 }
+
 .reviews-logo {
+  margin: 0 auto;
+  display: block;
+  margin-top: 68px;
 }
+
 .questions {
 }
+
 .questions-title {
 }
+
 .questions-list {
 }
+
 .questions-item {
 }
+
 .questions-link {
 }
+
 .questions-icon {
 }
+
 .company {
 }
+
 .company-subtitle {
 }
+
 .company-title {
 }
+
 .company-link {
 }
+
 .footer {
 }
 .footer-addresses {
