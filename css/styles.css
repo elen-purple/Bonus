@@ -164,6 +164,7 @@ body {
   padding-top: 17px;
   width: 539px;
   height: 283px;
+  box-sizing: content-box;
 }
 
 .expect {
@@ -334,14 +335,15 @@ body {
 }
 
 .reviews-item {
+  box-sizing: content-box;
 }
 
 .reviews-item:first-child {
   width: 489px;
+  padding-right: 43px;
 }
 
 .reviews-item:nth-child(2) {
-  margin-left: 43px;
   border-left: rgba(228, 216, 204, 0.1) 2px solid;
   padding-left: 84px;
   width: 408px;
@@ -400,33 +402,86 @@ body {
 }
 
 .questions {
+  background-color: var(--dark-text);
+  padding-top: 100px;
+  padding-bottom: 71px;
+}
+
+.questions-container {
+  display: flex;
+  gap: 120px;
+}
+
+.questions-wrap {
+  padding-top: 18px;
 }
 
 .questions-title {
+  color: var(--light-text);
+  font-size: 36px;
+  line-height: 1.27;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
 }
 
 .questions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
 }
 
 .questions-item {
 }
 
 .questions-link {
+  color: var(--first-expect);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.questions-link:hover {
+  text-decoration-line: underline;
 }
 
 .questions-icon {
+  fill: none;
+  stroke: #d8ccbf;
+  display: block;
 }
 
 .company {
+  background-image: url(../imgs/company-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 139px;
+  padding-bottom: 97px;
 }
 
 .company-subtitle {
+  color: var(--secondary-text);
+  font-size: 15px;
+  line-height: 1.07;
 }
 
 .company-title {
+  color: var(--light-background);
+  font-size: 48px;
+  line-height: 1.13;
+  width: 653px;
+  margin-top: 19px;
 }
 
 .company-link {
+  color: var(--light-text);
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+  border-bottom: 1px var(--light-text) solid;
+  width: 270px;
+  display: block;
+  margin-top: 24px;
 }
 
 .footer {
