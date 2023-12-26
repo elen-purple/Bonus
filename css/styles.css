@@ -68,19 +68,53 @@ body {
 }
 
 .hero {
+  padding-top: 341px;
+  padding-bottom: 116px;
 }
+
 .hero-title {
+  color: var(--light-text);
+  font-size: 57px;
+  line-height: 1.06;
+  width: 838px;
+  margin-bottom: 14px;
 }
+
 .hero-desc {
+  color: var(--secondary-text);
+  font-size: 18px;
+  line-height: 1.56;
 }
+
 .hero-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 42px;
 }
+
 .hero-item {
 }
+
 .hero-offer {
+  display: block;
+  padding: 14px 34px;
+  color: var(--white-text);
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 100px;
+  background: #7837f3;
 }
+
 .hero-link {
+  display: block;
+  padding: 14px 34px;
+  color: var(--white-text);
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 100px;
+  background: rgba(228, 216, 204, 0.5);
 }
+
 .work {
 }
 .work-title {
