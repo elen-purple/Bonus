@@ -9,10 +9,18 @@
   --white-text: #ffffff;
 }
 
+* {
+  font-weight: 400;
+}
+
+*::selection {
+  background-color: var(--secondary-text);
+  color: var(--dark-text);
+}
+
 body {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
-  background-color: var(--white-text);
+  background-color: var(--light-background);
 }
 
 .container {
@@ -52,10 +60,10 @@ body {
   line-height: 2.18;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  transition: color 0.6s;
 }
 
 .header-link:hover {
-  transition: color 0.4s;
   color: var(--first-expect);
 }
 
@@ -103,6 +111,11 @@ body {
   line-height: 1.5;
   border-radius: 100px;
   background: #7837f3;
+  transition: background-color 0.6s;
+}
+
+.hero-offer:hover {
+  background: rgba(120, 55, 243, 0.8);
 }
 
 .hero-link {
@@ -113,10 +126,14 @@ body {
   line-height: 1.5;
   border-radius: 100px;
   background: rgba(228, 216, 204, 0.5);
+  transition: background-color 0.6s;
+}
+
+.hero-link:hover {
+  background: rgba(228, 216, 204, 0.7);
 }
 
 .work {
-  background: var(--light-background);
   padding: 75.5px 0;
 }
 
@@ -159,33 +176,147 @@ body {
 }
 
 .expect-item {
+  display: flex;
+  gap: 116px;
+  width: 1152px;
+  height: 725px;
+  padding-top: 124px;
+}
+
+.expect-item:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  gap: 139px;
 }
 
 .expect-img {
+  border-radius: 12px;
+  width: 518px;
+  height: 500px;
 }
 
 .expect-wrap {
+  width: 495px;
+  padding-top: 68px;
+}
+
+.expect-item:nth-child(1) .expect-wrap {
+  padding-top: 91px;
+}
+
+.expect-wrapper {
+  display: flex;
+  gap: 12px;
 }
 
 .expect-num {
+  color: var(--dark-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  line-height: 0.63;
+  width: 74px;
+  height: 74px;
+}
+
+.expect-item:nth-child(1) .expect-num {
+  border-radius: 50%;
+  background-color: var(--first-expect);
+}
+.expect-item:nth-child(2) .expect-num {
+  border-radius: 50%;
+  background-color: var(--second-expect);
+}
+
+.expect-item:nth-child(3) .expect-num {
+  border-radius: 50%;
+  background-color: var(--third-expect);
 }
 
 .expect-header {
+  color: var(--dark-text);
+  font-size: 19px;
+  line-height: 1.89;
+  padding-top: 20px;
 }
 
 .expect-subtitle {
+  width: 491px;
+  color: var(--dark-text);
+  font-size: 35px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-top: 18px;
 }
 
 .expect-link {
+  border-bottom: var(--dark-text) 2px solid;
+  display: flex;
+  align-items: center;
+  width: 95px;
+  gap: 12px;
+  padding-bottom: 2px;
+  margin-top: 11px;
+  transition: border-bottom 0.6s;
+}
+
+.expect-item:nth-child(1) .expect-link:hover {
+  border-bottom: var(--first-expect) 2px solid;
+}
+
+.expect-item:nth-child(2) .expect-link:hover {
+  border-bottom: var(--second-expect) 2px solid;
+}
+
+.expect-item:nth-child(3) .expect-link:hover {
+  border-bottom: var(--third-expect) 2px solid;
 }
 
 .expect-text {
+  color: var(--dark-text);
+  font-size: 12px;
+  line-height: 2.5;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.6s;
+}
+
+.expect-item:nth-child(1) .expect-link:hover .expect-text {
+  color: var(--first-expect);
+}
+
+.expect-item:nth-child(2) .expect-link:hover .expect-text {
+  color: var(--second-expect);
+}
+
+.expect-item:nth-child(3) .expect-link:hover .expect-text {
+  color: var(--third-expect);
 }
 
 .expect-icon {
+  fill: var(--dark-text);
+  transition: fill 0.6s;
+}
+
+.expect-item:nth-child(1) .expect-link:hover .expect-icon {
+  fill: var(--first-expect);
+}
+
+.expect-item:nth-child(2) .expect-link:hover .expect-icon {
+  fill: var(--second-expect);
+}
+
+.expect-item:nth-child(3) .expect-link:hover .expect-icon {
+  fill: var(--third-expect);
 }
 
 .expect-desc {
+  color: var(--dark-text);
+  font-size: 14px;
+  line-height: 1.58;
+  margin-top: 45px;
 }
 
 .reviews {
