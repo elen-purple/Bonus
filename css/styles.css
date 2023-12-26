@@ -1,4 +1,16 @@
+:root {
+  --light-text: #e4d8cc;
+  --dark-text: #101010;
+  --light-background: #e7dfd8;
+  --first-expect: #b99fea;
+  --second-expect: #eba789;
+  --third-expect: #96dbc6;
+  --secondary-text: #c3bab1;
+  --white-text: #ffffff;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  background-color: var(--white-text);
 }
