@@ -14,3 +14,182 @@ body {
   font-weight: 400;
   background-color: var(--white-text);
 }
+
+.container {
+  width: 1182px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: red 3px dashed;
+}
+
+.header-hero-bg {
+  background-image: url(../imgs/header-hero-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  padding: 23px 0;
+}
+
+.header-container {
+  display: flex;
+  gap: 253px;
+}
+
+.header-list {
+  display: flex;
+  gap: 32px;
+  padding-left: 134px;
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--light-text);
+  font-size: 11px;
+  line-height: 2.18;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.header-link:hover {
+  transition: color 0.4s;
+  color: var(--first-expect);
+}
+
+.header-addresses {
+  display: flex;
+  gap: 32px;
+}
+
+.header-address {
+}
+
+.hero {
+}
+.hero-title {
+}
+.hero-desc {
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-offer {
+}
+.hero-link {
+}
+.work {
+}
+.work-title {
+}
+.work-desc {
+}
+.work-img {
+}
+.expect {
+}
+.expect-title {
+}
+.expect-list {
+}
+.expect-item {
+}
+.expect-img {
+}
+.expect-wrap {
+}
+.expect-num {
+}
+.expect-header {
+}
+.expect-subtitle {
+}
+.expect-link {
+}
+.expect-text {
+}
+.expect-icon {
+}
+.expect-desc {
+}
+.reviews {
+}
+.reviews-title {
+}
+.reviews-list {
+}
+.reviews-item {
+}
+.reviews-icon {
+}
+.reviews-desc {
+}
+.reviews-img {
+}
+.reviews-text {
+}
+.reviews-logo {
+}
+.questions {
+}
+.questions-title {
+}
+.questions-list {
+}
+.questions-item {
+}
+.questions-link {
+}
+.questions-icon {
+}
+.company {
+}
+.company-subtitle {
+}
+.company-title {
+}
+.company-link {
+}
+.footer {
+}
+.footer-addresses {
+}
+.footer-address {
+}
+.footer-header {
+}
+.footer-offer {
+}
+.footer-gmail {
+}
+.footer-lists {
+}
+.footer-items {
+}
+.footer-subtitle {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+}
+.footer-house {
+}
+.footer-text {
+}
+.footer-medias {
+}
+.footer-media {
+}
+.footer-run {
+}
+.footer-icon {
+}
+.footer-copyright {
+}
+.footer-privacy {
+}
