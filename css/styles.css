@@ -404,9 +404,15 @@ body {
 }
 
 .reviews-logo {
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
   margin-top: 68px;
+  fill: var(--light-background);
+  transition: fill 0.6s;
+}
+
+.reviews-logo:hover {
+  fill: var(--secondary-text);
 }
 
 .questions {
@@ -460,6 +466,7 @@ body {
 .company {
   background-image: url(../imgs/company-bg.webp);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding-top: 139px;
   padding-bottom: 97px;
