@@ -619,7 +619,7 @@ body {
 }
 
 .footer-link:hover {
-  color: var(--white-text);
+  color: var(--first-expect);
 }
 
 .footer-wrapper {
@@ -661,7 +661,7 @@ body {
 }
 
 .footer-icon:hover {
-  fill: rgba(231, 223, 216, 0.7);
+  fill: var(--first-expect);
 }
 
 .footer-wraper {
@@ -690,6 +690,6 @@ body {
 }
 
 .footer-privacy:hover {
-  color: var(--white-text);
+  color: var(--first-expect);
   text-decoration-line: underline;
 }
