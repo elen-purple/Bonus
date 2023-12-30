@@ -685,7 +685,7 @@ body {
 }
 
 .footer-icon:hover,
-.footer-icon:focus {
+.footer-run:focus .footer-icon {
   fill: var(--first-expect);
 }
 
