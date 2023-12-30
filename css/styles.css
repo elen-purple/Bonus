@@ -18,6 +18,10 @@
   color: var(--dark-text);
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--light-background);
@@ -71,7 +75,8 @@ body {
   transition: color 0.6s;
 }
 
-.header-link:hover {
+.header-link:hover,
+.header-link:focus {
   color: var(--first-expect);
 }
 
@@ -122,7 +127,8 @@ body {
   transition: background-color 0.6s;
 }
 
-.hero-offer:hover {
+.hero-offer:hover,
+.hero-offer:focus {
   background: rgba(120, 55, 243, 0.6);
 }
 
@@ -137,7 +143,8 @@ body {
   transition: background-color 0.6s;
 }
 
-.hero-link:hover {
+.hero-link:hover,
+.hero-link:focus {
   background: rgba(228, 216, 204, 0.7);
 }
 
@@ -271,15 +278,18 @@ body {
   transition: border-bottom 0.6s;
 }
 
-.expect-item:nth-child(1) .expect-link:hover {
+.expect-item:nth-child(1) .expect-link:hover,
+.expect-item:nth-child(1) .expect-link:focus {
   border-bottom: var(--first-expect) 2px solid;
 }
 
-.expect-item:nth-child(2) .expect-link:hover {
+.expect-item:nth-child(2) .expect-link:hover,
+.expect-item:nth-child(2) .expect-link:focus {
   border-bottom: var(--second-expect) 2px solid;
 }
 
-.expect-item:nth-child(3) .expect-link:hover {
+.expect-item:nth-child(3) .expect-link:hover,
+.expect-item:nth-child(3) .expect-link:focus {
   border-bottom: var(--third-expect) 2px solid;
 }
 
@@ -292,15 +302,18 @@ body {
   transition: color 0.6s;
 }
 
-.expect-item:nth-child(1) .expect-link:hover .expect-text {
+.expect-item:nth-child(1) .expect-link:hover .expect-text,
+.expect-item:nth-child(1) .expect-link:focus .expect-text {
   color: var(--first-expect);
 }
 
-.expect-item:nth-child(2) .expect-link:hover .expect-text {
+.expect-item:nth-child(2) .expect-link:hover .expect-text,
+.expect-item:nth-child(2) .expect-link:focus .expect-text {
   color: var(--second-expect);
 }
 
-.expect-item:nth-child(3) .expect-link:hover .expect-text {
+.expect-item:nth-child(3) .expect-link:hover .expect-text,
+.expect-item:nth-child(3) .expect-link:focus .expect-text {
   color: var(--third-expect);
 }
 
@@ -309,15 +322,18 @@ body {
   transition: fill 0.6s;
 }
 
-.expect-item:nth-child(1) .expect-link:hover .expect-icon {
+.expect-item:nth-child(1) .expect-link:hover .expect-icon,
+.expect-item:nth-child(1) .expect-link:focus .expect-icon {
   fill: var(--first-expect);
 }
 
-.expect-item:nth-child(2) .expect-link:hover .expect-icon {
+.expect-item:nth-child(2) .expect-link:hover .expect-icon,
+.expect-item:nth-child(2) .expect-link:focus .expect-icon {
   fill: var(--second-expect);
 }
 
-.expect-item:nth-child(3) .expect-link:hover .expect-icon {
+.expect-item:nth-child(3) .expect-link:hover .expect-icon,
+.expect-item:nth-child(3) .expect-link:focus .expect-icon {
   fill: var(--third-expect);
 }
 
@@ -411,7 +427,8 @@ body {
   transition: fill 0.6s;
 }
 
-.reviews-logo:hover {
+.reviews-logo:hover,
+.reviews-logo:focus {
   fill: var(--secondary-text);
 }
 
@@ -453,7 +470,8 @@ body {
   line-height: 1.4;
 }
 
-.questions-link:hover {
+.questions-link:hover,
+.questions-link:focus {
   text-decoration-line: underline;
 }
 
@@ -499,7 +517,8 @@ body {
   transition: border-bottom 0.6s;
 }
 
-.company-link:hover {
+.company-link:hover,
+.company-link:focus {
   border-bottom: 1px var(--first-expect) solid;
 }
 
@@ -512,7 +531,8 @@ body {
   transition: color 0.6s;
 }
 
-.company-link:hover .company-text {
+.company-link:hover .company-text,
+.company-link:focus .company-text {
   color: var(--first-expect);
 }
 
@@ -521,7 +541,8 @@ body {
   transition: fill 0.6s;
 }
 
-.company-link:hover .company-icon {
+.company-link:hover .company-icon,
+.company-link:focus .company-icon {
   fill: var(--first-expect);
 }
 
@@ -557,7 +578,8 @@ body {
   transition: background-color 0.6s;
 }
 
-.footer-offer:hover {
+.footer-offer:hover,
+.footer-offer:focus {
   background-color: rgba(120, 55, 243, 0.6);
 }
 
@@ -572,7 +594,8 @@ body {
   transition: color 0.6s, border 0.6s;
 }
 
-.footer-gmail:hover {
+.footer-gmail:hover,
+.footer-gmail:focus {
   color: var(--first-expect);
   border: var(--first-expect) 1px solid;
 }
@@ -618,7 +641,8 @@ body {
   display: block;
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus {
   color: var(--first-expect);
 }
 
@@ -660,7 +684,8 @@ body {
   transition: fill 0.6s;
 }
 
-.footer-icon:hover {
+.footer-icon:hover,
+.footer-icon:focus {
   fill: var(--first-expect);
 }
 
@@ -689,7 +714,8 @@ body {
   transition: color 0.6s;
 }
 
-.footer-privacy:hover {
+.footer-privacy:hover,
+.footer-privacy:focus {
   color: var(--first-expect);
   text-decoration-line: underline;
 }
