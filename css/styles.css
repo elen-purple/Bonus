@@ -123,7 +123,7 @@ body {
 }
 
 .hero-offer:hover {
-  background: rgba(120, 55, 243, 0.8);
+  background: rgba(120, 55, 243, 0.6);
 }
 
 .hero-link {
@@ -558,7 +558,7 @@ body {
 }
 
 .footer-offer:hover {
-  background-color: rgba(120, 55, 243, 0.7);
+  background-color: rgba(120, 55, 243, 0.6);
 }
 
 .footer-gmail {
@@ -573,8 +573,8 @@ body {
 }
 
 .footer-gmail:hover {
-  color: var(--white-text);
-  border: var(--white-text) 1px solid;
+  color: var(--first-expect);
+  border: var(--first-expect) 1px solid;
 }
 
 .footer-wrap {
